@@ -1,0 +1,140 @@
+/*
+
+Theme Name: Child of Alpha
+Description: Child theme based on Alpha
+Author: Yi Lu
+Version: 1.0
+Template: Alpha
+
+*/
+
+@import url('../Alpha/style.css');
+
+/* Normalize default browser styles */
+@import url('normalize.css');
+
+@import url('stylesheets/success-story.css');
+@import url('stylesheets/home-2018.css');
+
+/* adjust the font size of body text */
+body { background-color: #eee; nowhitespace: afterproperty; font: 13px/1.8 Arial, Helvetica, sans-serif; color: #444; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%; font-size: 15px; }
+
+body { background-image: none !important; }
+
+/* main containers */
+#wrap { -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1); margin-bottom: 25px }
+
+/* breadcrumbs */
+#breadcrumbs {font-size: 12px; padding: 0 0 5px 0;}
+#breadcrumbs a {color: #ab0c02;}
+#breadcrumbs a:hover {color: #dd1013;}
+
+/*page heading*/
+#page-heading { position: relative; padding: 25px 0px 10px 0px; margin: -25px 0px 15px 0px; background: #ffffff; border-bottom: 1px solid #ddd; background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#fff)); background: -moz-linear-gradient(top, #fff, #fff); text-shadow: 1px 1px 1px rgba(255,255,255,0.6) /* box-shadow: 0 3px 3px rgba(0,0,0,0.04); */}
+
+/* adjust the margin of header area */
+#header {
+margin: 15px auto 15px;
+position: relative;
+}
+
+/* Slider
+================================================== */
+/*home slider*/
+#full-slider{ margin: -25px -25px 25px; border-bottom: 0px solid #000 }
+
+/*control nav*/
+.flex-control-nav{ height: 8px; position: absolute; right: 465px; bottom: 25px;}
+.flex-control-nav li a {width: 8px; height: 8px; display: block; background: url("images/bullets_red.png") no-repeat 0 0; cursor: pointer; text-indent: -9999px;}
+.flex-control-nav li a.flex-active {background-position: -9px 0; cursor: default;}
+
+/* slider caption */
+.flexslider-container .flex-caption { text-shadow: none; position: absolute; left: 520px; bottom: 150px; text-align: left; margin: 0; background: transparent; opacity: 100; -moz-opacity: 100; -webkit-opacity: 100; padding: 25px; font-size: 16px; color: #000; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; max-width: 430px}
+.flexslider-container .flex-caption h3 { color: #000; font-family: 'Droid Serif', Georgia; font-size: 22px; margin-bottom: 18px; margin-top: 15px; margin-bottom: 5px }
+.flexslider-container .flex-caption p { margin: 0 0 10px }
+.flexslider-container .flex-caption p:last-child{ margin: 0 }
+.flexslider-container .flex-caption a{ color: #ef4135 !important }
+.flexslider-container .flex-caption a:hover{ text-decoration: underline }
+.flexslider-container .flex-caption h2, .flexslider-container .flex-caption h3 { font-size: 19px; color: #B22222; margin: 0 }
+
+.broken_link, a.broken_link { text-decoration: none !important; }
+
+/* Homepage
+================================================== */
+/*highlights*/
+/*format the thumbnails of highlights*/
+.hp-highlight h3 { font-family: 'Droid Serif', Georgia, Times New Roman, Times, serif; font-weight: normal; color: #000; font-size: 18px; margin: 0 0 10px; background-repeat: no-repeat; font-weight: normal; text-align: center; }
+.hp-highlight img { display:block; margin: 5px auto; }
+
+
+/* Typography 
+================================================== */ 
+.entry h2 {color: #AB0C02;}
+body .entry a {color: #ab0c02;}
+body .entry a:hover {color: #dd1013;}
+
+/* Portfolio */
+.portfolio-entry:hover h2 a{ color: #ab0c02 !important}
+
+/* Blog Posts & Blog Entries
+================================================== */
+/*related posts*/
+#related-posts h4{ font-size: 15px; margin: 0 0 10px;}
+
+/* Remove arrow bullet for custom menus in sidebar */
+#sidebar .widget_nav_menu ul{font-size: 13px;}
+#sidebar .widget_nav_menu a{color: black; padding-left: 0px; background: none;}
+#sidebar .widget_nav_menu a:hover{color: #ab0304;}
+#sidebar .widget_nav_menu li{padding: 3px 3px 3px 3px; border-bottom: 1px solid #efefef}
+#sidebar .widget_nav_menu li:hover{background: #f9f9f9; border-right: 5px solid #ab0304; border-bottom: 0px solid #efefef}
+
+/* Customize the currently selected menu item in sidebar */
+#sidebar .current-menu-item a{color: #ab0304;}
+#sidebar li.current-menu-item {background: #f9f9f9; border-right: 5px solid #ab0304; border-bottom: 0px solid #efefef}
+
+/* Adjust the margin bottom of each footer widget */
+div.footer-widget {margin-bottom: 20px;}
+
+/*footer main*/
+#footer { position: relative; padding: 30px 25px 10px; background: #f9f9f9; color: #666; font-size: 12px; min-height: 5px; border-bottom: 0px solid #000;}
+
+#footer-custom-wrap {padding: 0px 0px 0px 50px;}
+#wrap-footer {margin-bottom: 0px;}
+
+/*footer widgets*/
+.footer-widget h4{ font-size: 13px; color: #666; border-bottom: 1px solid #333; padding-bottom: 5px; margin: 0 0 15px }
+
+/*footer bottom*/
+#footer-bottom { padding: 10px 25px; font-size: 11px; background-color: #ececec; border-top: 0px solid #333; color: #71757b; border-radius: 0 0 4px 4px; }
+
+/*footer menu*/
+#footer-menu li{ display: inline-block; margin: 0; font-weight: normal; }
+
+/* nivoslider */
+#home-nivoslider-wrap {margin: -45px auto 0 auto;}
+
+.responsive-tabs .responsive-tabs__list__item {
+    font-weight: bold;
+    color: #cc0000;
+}
+
+/* AMOTeam styles */
+.amoteam-tiles { visibility: visible !important; }
+.amoteam-tiles__item { visibility: visible !important; }
+
+/* Search
+================================================== */
+
+/*main*/
+input[type="search"] { background: url("./images/search.png") no-repeat scroll 96% center #fff; border: 1px solid #ddd; box-shadow: 0 0 3px rgba(0, 0, 0, 0.05); color: #666; font-family: Lato, Arial,'Helvetica Neue',Helvetica; font-size: 11px; padding: 7px 16px 7px 7px; width: 100%; background 0.3s ease-in-out; -o-transition: background 0.3s ease-in-out; transition: background 0.3s ease-in-out; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; -webkit-appearance: none; outline: none; }
+
+/* Forms
+================================================== */
+
+/*inputs*/
+input[type="text"], input[type="email"], input[type="password"]{ height: 28px; line-height: 28px; }
+input[type="text"], input[type="email"], input[type="password"], textarea { background: #fff; border: 1px solid #ddd; color: #666; display: block; font: 12px 'Helvetica Neue',Helvetica,Arial !important; margin-bottom: 5px; margin-left: 0; padding: 0 10px; -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1) inset; -moz-box-shadow: 0 1px 3px rgba(0,0,0,.1) inset; box-shadow: 0 1px 3px rgba(0,0,0,.07) inset;  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; max-width: 100%;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px; }
+textarea{  width: 100%; padding: 10px }
+input[type="text"], input[type="email"], input[type="password"] { width: 200px }
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus {border-color: #ccc; -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15) inset; -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15) inset; box-shadow: 0 1px 2px rgba(0,0,0,.15) inset; border-color: #bbb }
+
